@@ -46,23 +46,20 @@ font-family: Garamond, Georgia, "Times New Roman";}
     padding-left: 100px;
 }
 
-.adjust {
-    text-align: justify;
+.adjust {text-align: center;
+    width: 700px;
     font-size: 1.25em;
     word-spacing: 0.20em;
     font-family: Garamond, Georgia, "Times New Roman";
-    line-height: 1.50em;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;}
+    line-height: 1.35em;}
 
 table {margin-left: auto;
-    margin-right: auto;}
+margin-right: auto;}
 
 #fix {padding-right: 0;}
 
 .changeFont {font-family: 'Courier New', Courier, monospace;
-            color: lightgray;}
+    color: lightgray;}
 
 .pronouns{text-align: center;
     font-size: 20px;
@@ -120,10 +117,6 @@ h3 > strong > em {font-weight: normal;}
 #mobileHomePic {display: none;}
 .mobilecenterImage {display: none;}
 
-#video {text-align: center;
-        margin-left: auto;
-        margin-right: auto;}
-
 @media only screen and (max-width: 768px){
     nav {margin: 0;}
     nav li {display: block;
@@ -137,9 +130,13 @@ h3 > strong > em {font-weight: normal;}
     .mobilecenterImage {display: block;
         text-align: center;} 
     .adjust {font-size: 0.75em;
-        max-width: 300px;} 
+        max-width: 50%; text-align: center;
+        width: 700px;
+        word-spacing: 0.20em;
+        font-family: Garamond, Georgia, "Times New Roman";
+        line-height: 1.35em;} 
     .secondadjust {font-size: 0.75em;
-            max-width: 800px;}
+            max-width: 100%;}
     #cvWrap {width: 50%}
     footer {position: relative;}
     #honeiahCaption {display: block;}
