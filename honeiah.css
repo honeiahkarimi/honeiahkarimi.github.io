@@ -138,8 +138,6 @@ h3 > strong > em {font-weight: normal;}
     header {margin-bottom: 15px;}
     .centerImage {
         max-width: 100%;
-        height: auto; 
-        display: block;
-                    text-align: center;       
+        height: auto;      
             }
 }
