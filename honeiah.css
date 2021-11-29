@@ -120,6 +120,20 @@ h3 > strong > em {font-weight: normal;}
         margin-left: auto;
         margin-right: auto;}
 
+@media only screen and (max-width: 1024px){
+        nav {margin: 0;}
+        nav li {display: block;
+                        padding-right: 0;}
+                    #mobile { display: inline; }
+                    #desktop { display: none; }
+                    #gutter {display: none;}
+                    #mobileHomePic, #centerImage {display: block;
+                    text-align: center;}
+                    footer {position: relative;}
+                    h1 {line-height:  80px ;}
+                    header {margin-bottom: 15px;}
+                }
+
 @media only screen and (max-width: 768px){
     nav {margin: 0;}
     nav li {display: block;
@@ -134,6 +148,7 @@ h3 > strong > em {font-weight: normal;}
     #cvWrap {width: 50%}
     footer {position: relative;}
     #honeiahCaption {display: block;}
-    h1 {line-height:  90px ;}
+    h1 {line-height:  80px ;}
     header {margin-bottom: 15px;}
+    #centerImage{width: 400px;}
 }
