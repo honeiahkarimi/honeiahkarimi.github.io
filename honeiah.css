@@ -47,20 +47,22 @@ font-family: Garamond, Georgia, "Times New Roman";}
 }
 
 .adjust {text-align: justify;
-    width: 75%;
     font-size: 1.25em;
     word-spacing: 0.20em;
     font-family: Garamond, Georgia, "Times New Roman";
-    line-height: 1.35em;}
+    line-height: 1.50em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;}
 
-table {margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
-    width: 75%;
+table {text-align: justify;
     font-size: 1.25em;
     word-spacing: 0.20em;
     font-family: Garamond, Georgia, "Times New Roman";
-    line-height: 1.35em;}
+    line-height: 1.50em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;}
 
 #fix {padding-right: 0;}
 
