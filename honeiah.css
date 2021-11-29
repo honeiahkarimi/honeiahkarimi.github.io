@@ -133,7 +133,7 @@ h3 > strong > em {font-weight: normal;}
     .centerImage {display: none;}
     .mobilecenterImage {display: block;
         text-align: center;} 
-    #adjust {font-size: 0.75em;
+    #adjust {font-size: 0.50em;
         max-width: 300px;} 
     .secondadjust {font-size: 0.75em;
             max-width: 800px;}
