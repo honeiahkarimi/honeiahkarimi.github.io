@@ -91,13 +91,8 @@ figcaption {text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     height: auto; 
-    width: 600px;
+    max-width: 100%;
     }
-
-.thirdAdjust {
-    height: auto;
-    width: 600px;
-}
 
 h2 {padding: 0; 
 margin: 0;}
@@ -159,7 +154,8 @@ h3 > strong > em {font-weight: normal;}
     #honeiahCaption {display: block;}
     h1 {line-height:  80px ;}
     header {margin-bottom: 15px;}
-    .thirdAdjust {
+    .centerImage {
         height: auto;
-        width: 400px;}
+        max-width: 100%;
+    }
 }
