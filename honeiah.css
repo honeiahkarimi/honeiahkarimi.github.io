@@ -148,7 +148,9 @@ h3 > strong > em {font-weight: normal;}
     #honeiahCaption {display: block;}
     h1 {line-height:  80px ;}
     header {margin-bottom: 15px;}
-    #centerImage {max-width: 100%;
-        min-width: 300px;
-        height: auto;}
+    #centerImage {
+            height: 1em;
+            width: auto;
+            display: inline-block;
+            }
 }
