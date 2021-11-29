@@ -86,11 +86,11 @@ figcaption {text-align: center;
     margin-right: auto;}
  
 .centerImage {
-        text-align: center;
-        display: block;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        }
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
 
 h2 {padding: 0; 
 margin: 0;}
@@ -115,11 +115,31 @@ h3 > strong > em {font-weight: normal;}
 .relative {position: relative;}
 
 #mobileHomePic {display: none;}
-.mobilecenterImage {display: none;}
+.centerImage {display: none;}
 
 #video {text-align: center;
         margin-left: auto;
         margin-right: auto;}
+
+@media only screen and (max-width: 1024px){
+        nav {margin: 0;}
+        nav li {display: block;
+                        padding-right: 0;}
+                    #mobile { display: inline; }
+                    #desktop { display: none; }
+                    #gutter {display: none;}
+                    #mobileHomePic {display: block;
+                    text-align: center;}
+                    #centerImage1 {display: block;
+                        text-align: center;}
+                    #centerImage2 {display: block;
+                            text-align: center;}
+                    footer {position: relative;}
+                    h1 {line-height:  80px ;}
+                    header {margin-bottom: 15px;}
+                }
+
+
 
 @media only screen and (max-width: 768px){
     nav {margin: 0;}
@@ -128,12 +148,19 @@ h3 > strong > em {font-weight: normal;}
     #mobile { display: inline; }
     #desktop { display: none; }
     #gutter {display: none;}
-    #mobileHomePic, .mobilecenterImage {display: block;
-                    text-align: center;}
+    #mobileHomePic {display: block;
+        text-align: center;}
+    #centerImage {display: block;
+                text-align: center;  
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                object-position: bottom;}
     #adjust, .secondadjust {font-size: 0.75em;
             width: 400px;}
     #cvWrap {width: 50%}
     footer {position: relative;}
     #honeiahCaption {display: block;}
     h1 {line-height:  80px ;}
+    header {margin-bottom: 15px;}
 }
