@@ -115,6 +115,7 @@ h3 > strong > em {font-weight: normal;}
 .relative {position: relative;}
 
 #mobileHomePic {display: none;}
+#mobileCenterImage {display: none;}
 
 #video {text-align: center;
         margin-left: auto;
