@@ -46,15 +46,15 @@ font-family: Garamond, Georgia, "Times New Roman";}
     padding-left: 100px;
 }
 
-.adjust {text-align: justify;
+#adjust {text-align: justify;
+    width: 700px;
     font-size: 1.25em;
     word-spacing: 0.20em;
     font-family: Garamond, Georgia, "Times New Roman";
-    line-height: 1.50em;
-    width: 700px;}
+    line-height: 1.35em;}
 
-table { margin-left: auto;
-            margin-right: auto;}
+table {margin-left: auto;
+margin-right: auto;}
 
 #fix {padding-right: 0;}
 
@@ -130,9 +130,9 @@ h3 > strong > em {font-weight: normal;}
     .mobilecenterImage {display: block;
         text-align: center;} 
     .adjust {font-size: 0.75em;
-        max-width: 300px;} 
+        max-width: 50%;} 
     .secondadjust {font-size: 0.75em;
-            max-width: 800px;}
+            max-width: 50%;}
     #cvWrap {width: 50%}
     footer {position: relative;}
     #honeiahCaption {display: block;}
