@@ -128,7 +128,6 @@ h3 > strong > em {font-weight: normal;}
     #mobile { display: inline; }
     #desktop { display: none; }
     #gutter {display: none;}
-    .centerImage {display: none;}
     #mobileHomePic, .mobilecenterImage {display: block;
                     text-align: center;}
     #adjust, .secondadjust {font-size: 0.75em;
