@@ -85,7 +85,7 @@ figcaption {text-align: center;
     margin-left: auto;
     margin-right: auto;}
  
-    .centerImage {
+.centerImage {
         text-align: center;
         display: block;
         padding-top: 20px;
@@ -115,7 +115,7 @@ h3 > strong > em {font-weight: normal;}
 .relative {position: relative;}
 
 #mobileHomePic {display: none;}
-.centerImage {display: none;}
+.mobilecenterImage {display: none;}
 
 #video {text-align: center;
         margin-left: auto;
@@ -128,7 +128,7 @@ h3 > strong > em {font-weight: normal;}
     #mobile { display: inline; }
     #desktop { display: none; }
     #gutter {display: none;}
-    #mobileHomePic, #centerImage {display: block;
+    #mobileHomePic, .mobilecenterImage {display: block;
     text-align: center;}
     footer {position: relative;}
     h1 {line-height:  80px ;}
@@ -141,7 +141,7 @@ h3 > strong > em {font-weight: normal;}
     #mobile { display: inline; }
     #desktop { display: none; }
     #gutter {display: none;}
-    #mobileHomePic, #centerImage {display: block;
+    #mobileHomePic, .mobilecenterImage {display: block;
                     text-align: center;}
     #adjust, .secondadjust {font-size: 0.75em;
             width: 400px;}
