@@ -140,12 +140,12 @@ h3 > strong > em {font-weight: normal;}
     #desktop { display: none; }
     #gutter {display: none;}
     #mobileHomePic, #centerImage {display: block;
-                    text-align: center;}
+                    text-align: center;} 
     #adjust, .secondadjust {font-size: 0.75em;
             width: 400px;}
     #cvWrap {width: 50%}
-    header {padding-bottom: 10px;}
     footer {position: relative;}
     #honeiahCaption {display: block;}
     h1 {line-height:  80px ;}
+    header {margin-bottom: 10px;}
 }
