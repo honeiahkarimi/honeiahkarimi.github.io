@@ -91,7 +91,7 @@ figcaption {text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     height: auto; 
-    max-width: 100%;
+    max-width: 500px;
     }
 
 h2 {padding: 0; 
@@ -156,6 +156,6 @@ h3 > strong > em {font-weight: normal;}
     header {margin-bottom: 15px;}
     .centerImage {
         height: auto;
-        max-width: 100%;
+        max-width: 500px;
     }
 }
