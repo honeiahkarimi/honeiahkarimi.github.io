@@ -46,7 +46,7 @@ font-family: Garamond, Georgia, "Times New Roman";}
     padding-left: 100px;
 }
 
-#adjust {text-align: justify;
+.adjust {text-align: justify;
         width: 700px;
         font-size: 1.25em;
         word-spacing: 0.20em;
@@ -121,19 +121,6 @@ h3 > strong > em {font-weight: normal;}
         margin-left: auto;
         margin-right: auto;}
 
-@media only screen and (max-width: 1024px){
-    nav {margin: 0;}
-    nav li {display: block;
-            padding-right: 0;}
-    #mobile { display: inline; }
-    #desktop { display: none; }
-    #gutter {display: none;}
-    #mobileHomePic, .mobilecenterImage {display: block;
-    text-align: center;}
-    footer {position: relative;}
-    h1 {line-height:  80px ;}
-}
-
 @media only screen and (max-width: 768px){
     nav {margin: 0;}
     nav li {display: block;
@@ -141,10 +128,15 @@ h3 > strong > em {font-weight: normal;}
     #mobile { display: inline; }
     #desktop { display: none; }
     #gutter {display: none;}
-    #mobileHomePic, .mobilecenterImage {display: block;
+    #mobileHomePic {display: block;
                     text-align: center;}
-    #adjust, .secondadjust {font-size: 0.75em;
-            width: 400px;}
+    .centerImage {display: none;}
+    .mobilecenterImage {display: block;
+        text-align: center;} 
+    .adjust {font-size: 0.50em;
+        max-width: 300px;} 
+    .secondadjust {font-size: 0.75em;
+            max-width: 800px;}
     #cvWrap {width: 50%}
     footer {position: relative;}
     #honeiahCaption {display: block;}
