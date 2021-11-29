@@ -144,7 +144,7 @@ h3 > strong > em {font-weight: normal;}
     #mobile { display: inline; }
     #desktop { display: none; }
     #gutter {display: none;}
-    #mobileHomePic, .centerImage {display: block;
+    #mobileHomePic, #centerImage {display: block;
                     text-align: center;} 
     #adjust, .secondadjust {font-size: 0.75em;
             width: 400px;}
