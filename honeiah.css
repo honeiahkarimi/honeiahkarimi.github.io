@@ -130,9 +130,9 @@ h3 > strong > em {font-weight: normal;}
     .mobilecenterImage {display: block;
         text-align: center;} 
     .adjust {font-size: 0.75em;
-        max-width: 50%;} 
+        max-width: 100%;} 
     .secondadjust {font-size: 0.75em;
-            max-width: 50%;}
+            max-width: 100%;}
     #cvWrap {width: 50%}
     footer {position: relative;}
     #honeiahCaption {display: block;}
