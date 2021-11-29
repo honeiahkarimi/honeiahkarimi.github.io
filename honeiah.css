@@ -46,12 +46,15 @@ font-family: Garamond, Georgia, "Times New Roman";}
     padding-left: 100px;
 }
 
-.adjust {text-align: justify;
-        width: 700px;
-        font-size: 1.25em;
-        word-spacing: 0.20em;
-        font-family: Garamond, Georgia, "Times New Roman";
-        line-height: 1.35em;}
+.adjust {
+    text-align: justify;
+    font-size: 1.25em;
+    word-spacing: 0.20em;
+    font-family: Garamond, Georgia, "Times New Roman";
+    line-height: 1.50em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;}
 
 table {margin-left: auto;
     margin-right: auto;}
@@ -133,7 +136,7 @@ h3 > strong > em {font-weight: normal;}
     .centerImage {display: none;}
     .mobilecenterImage {display: block;
         text-align: center;} 
-    .adjust {font-size: 0.50em;
+    .adjust {font-size: 0.75em;
         max-width: 300px;} 
     .secondadjust {font-size: 0.75em;
             max-width: 800px;}
