@@ -134,9 +134,7 @@ h3 > strong > em {font-weight: normal;}
     .mobilecenterImage {display: block;
         text-align: center;} 
     #adjust, .secondadjust {font-size: 0.75em;
-            width: 400px; 
-            padding-right: 20px; 
-            padding-left: 20px;}
+            width: 400px;}
     #cvWrap {width: 50%}
     footer {position: relative;}
     #honeiahCaption {display: block;}
