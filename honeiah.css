@@ -150,5 +150,5 @@ h3 > strong > em {font-weight: normal;}
     #honeiahCaption {display: block;}
     h1 {line-height:  80px ;}
     header {margin-bottom: 15px;}
-    #centerImage{width: 400px;}
+    #centerImage{max-width: 75%;}
 }
