@@ -132,7 +132,7 @@ h3 > strong > em {font-weight: normal;}
             footer {position: relative;}
         }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 100%){
     nav {margin: 0;}
     nav li {display: block;
             padding-right: 0;}
@@ -149,8 +149,7 @@ h3 > strong > em {font-weight: normal;}
     h1 {line-height:  80px ;}
     header {margin-bottom: 15px;}
     .centerImage {
-        width: auto ;
-        max-width: 100% ;
+        width: auto;
         height: auto;
             }
 }
