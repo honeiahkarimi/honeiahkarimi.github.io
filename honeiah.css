@@ -130,7 +130,7 @@ h3 > strong > em {font-weight: normal;}
     .mobilecenterImage {display: block;
         text-align: center;} 
     .adjust {font-size: 0.75em;
-        max-width: 100%;} 
+        max-width: 50%;} 
     .secondadjust {font-size: 0.75em;
             max-width: 100%;}
     #cvWrap {width: 50%}
