@@ -130,10 +130,9 @@ h3 > strong > em {font-weight: normal;}
                     #gutter {display: none;}
                     #mobileHomePic {display: block;
                     text-align: center;}
-                    #centerImage1 {display: block;
-                        text-align: center;}
-                    #centerImage2 {display: block;
-                            text-align: center;}
+                    .centerImage {display: block;
+                        text-align: center;  
+                    }
                     footer {position: relative;}
                     h1 {line-height:  80px ;}
                     header {margin-bottom: 15px;}
@@ -150,7 +149,7 @@ h3 > strong > em {font-weight: normal;}
     #gutter {display: none;}
     #mobileHomePic {display: block;
         text-align: center;}
-    #centerImage {display: block;
+    .centerImage {display: block;
                 text-align: center;  
                 width: 100%;
                 height: auto;
