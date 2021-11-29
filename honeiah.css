@@ -128,9 +128,11 @@ h3 > strong > em {font-weight: normal;}
     #mobile { display: inline; }
     #desktop { display: none; }
     #gutter {display: none;}
-    #mobileHomePic, .mobilecenterImage {display: block;
+    #mobileHomePic {display: block;
                     text-align: center;}
-    .centerImage{display: none;}
+    .centerImage {display: none;}
+    .mobilecenterImage {display: block;
+        text-align: center;} 
     #adjust, .secondadjust {font-size: 0.75em;
             width: 400px;}
     #cvWrap {width: 50%}
