@@ -85,12 +85,19 @@ figcaption {text-align: center;
     margin-left: auto;
     margin-right: auto;}
  
-.centerImage {
+#centerImage1 {
     text-align: center;
     display: block;
     padding-top: 20px;
     padding-bottom: 20px;
     }
+
+#centerImage2 {
+        text-align: center;
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
 
 h2 {padding: 0; 
 margin: 0;}
@@ -115,7 +122,8 @@ h3 > strong > em {font-weight: normal;}
 .relative {position: relative;}
 
 #mobileHomePic {display: none;}
-.mobileCenterImage {display: none;}
+#mobileCenterImage1 {display: none;}
+#mobileCenterImage2 {display: none;}
 
 #video {text-align: center;
         margin-left: auto;
@@ -130,8 +138,10 @@ h3 > strong > em {font-weight: normal;}
                     #gutter {display: none;}
                     #mobileHomePic {display: block;
                     text-align: center;}
-                    .centerImage {display: block;
+                    #centerImage1 {display: block;
                         text-align: center;}
+                    #centerImage2 {display: block;
+                            text-align: center;}
                     footer {position: relative;}
                     h1 {line-height:  80px ;}
                     header {margin-bottom: 15px;}
@@ -148,8 +158,10 @@ h3 > strong > em {font-weight: normal;}
     #gutter {display: none;}
     #mobileHomePic {display: block;
         text-align: center;}
-    .centerImage {display: block;
+    #centerImage1 {display: block;
             text-align: center;}
+    #centerImage2 {display: block;
+                text-align: center;}
     #adjust, .secondadjust {font-size: 0.75em;
             width: 400px;}
     #cvWrap {width: 50%}
