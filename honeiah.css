@@ -91,8 +91,13 @@ figcaption {text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     height: auto; 
-    width: 600;
+    width: 600px;
     }
+
+.thirdAdjust {
+    height: auto;
+    width: 600px;
+}
 
 h2 {padding: 0; 
 margin: 0;}
@@ -136,6 +141,8 @@ h3 > strong > em {font-weight: normal;}
                     header {margin-bottom: 15px;}
                 }
 
+
+
 @media only screen and (max-width: 768px){
     nav {margin: 0;}
     nav li {display: block;
@@ -152,5 +159,7 @@ h3 > strong > em {font-weight: normal;}
     #honeiahCaption {display: block;}
     h1 {line-height:  80px ;}
     header {margin-bottom: 15px;}
-    .centerImage {max-width: 400px;}
+    .thirdAdjust {
+        height: auto;
+        width: 400px;}
 }
