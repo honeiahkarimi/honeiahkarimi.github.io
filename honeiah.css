@@ -140,7 +140,7 @@ h3 > strong > em {font-weight: normal;}
     #desktop { display: none; }
     #gutter {display: none;}
     #mobileHomePic, #centerImage {display: block;
-                    text-align: center;}
+                    text-align: center; padding-top: 10px;}
     #adjust, .secondadjust {font-size: 0.75em;
             width: 400px;}
     #cvWrap {width: 50%}
