@@ -51,7 +51,7 @@ font-family: Garamond, Georgia, "Times New Roman";}
     word-spacing: 0.20em;
     font-family: Garamond, Georgia, "Times New Roman";
     line-height: 1.50em;
-    width: 75%;}
+    width: 700px;}
 
 table { margin-left: auto;
             margin-right: auto;}
@@ -132,7 +132,7 @@ h3 > strong > em {font-weight: normal;}
     .adjust {font-size: 0.75em;
         max-width: 300px;} 
     .secondadjust {font-size: 0.75em;
-            max-width: 900px;}
+            max-width: 800px;}
     #cvWrap {width: 50%}
     footer {position: relative;}
     #honeiahCaption {display: block;}
