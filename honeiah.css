@@ -56,11 +56,7 @@ font-family: Garamond, Georgia, "Times New Roman";}
     margin-right: auto;}
 
 table { margin-left: auto;
-            margin-right: auto;
-            font-size: 1.25em;
-    word-spacing: 0.20em;
-    font-family: Garamond, Georgia, "Times New Roman";
-    line-height: 1.50em;}
+            margin-right: auto;}
 
 #fix {padding-right: 0;}
 
