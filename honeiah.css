@@ -120,18 +120,6 @@ h3 > strong > em {font-weight: normal;}
         margin-left: auto;
         margin-right: auto;}
 
-@media only screen and (max-width: 1024px){
-    nav {margin: 0;}
-    nav li {display: block;
-            padding-right: 0;}
-    #mobile { display: inline; }
-    #desktop { display: none; }
-    #gutter {display: none;}
-    #mobileHomePic, #centerImage {display: block;
-    text-align: center;}
-    footer {position: relative;}
-}
-
 @media only screen and (max-width: 768px){
     nav {margin: 0;}
     nav li {display: block;
@@ -139,7 +127,7 @@ h3 > strong > em {font-weight: normal;}
     #mobile { display: inline; }
     #desktop { display: none; }
     #gutter {display: none;}
-    #mobileHomePic, #centerImage {display: block;
+    #mobileHomePic {display: block;
                     text-align: center;} 
     #adjust, .secondadjust {font-size: 0.75em;
             width: 400px;}
@@ -148,9 +136,10 @@ h3 > strong > em {font-weight: normal;}
     #honeiahCaption {display: block;}
     h1 {line-height:  80px ;}
     header {margin-bottom: 15px;}
-    #centerImage {
-            height: 1em;
-            width: auto;
-            display: inline-block;
+    .centerImage {
+        max-width: 100%;
+        height: auto; 
+        display: block;
+                    text-align: center;       
             }
 }
