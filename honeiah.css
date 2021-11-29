@@ -46,22 +46,19 @@ font-family: Garamond, Georgia, "Times New Roman";}
     padding-left: 100px;
 }
 
-.adjust {
-    text-align: justify;
+.adjust {text-align: justify;
+    width: 700px;
     font-size: 1.25em;
     word-spacing: 0.20em;
     font-family: Garamond, Georgia, "Times New Roman";
-    line-height: 1.50em;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;}
+    line-height: 1.35em;}
 
 table {margin-left: auto;
     margin-right: auto;}
 
 #fix {padding-right: 0;}
 
-.changeFont {font-family: 'Courier New', Courier, monospace;
+.changeFont {font-family: Garamond, Georgia, "Times New Roman";
             color: lightgray;}
 
 .pronouns{text-align: center;
